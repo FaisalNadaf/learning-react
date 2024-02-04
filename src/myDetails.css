@@ -1,0 +1,13 @@
+p{
+    opacity: 0.6;
+    font-size: 2rem;
+    padding: 1rem;
+    transition: all 0.5s;
+}
+p:hover{
+    opacity: 1;
+    font-size: 2.01rem;
+    border-radius: 100px;
+    background-color:#b0ecfd;
+    box-shadow: 2px 2px 100px #83e2fc;
+}
