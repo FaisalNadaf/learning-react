@@ -1,14 +1,18 @@
-import "./productt.css"
+import Price from "./priceofproduct";
 
-export default function Product(){
-  return(
-    <>
-    <h1>hello</h1>
-<h3>{title}f</h3>
-<h4>{about}f</h4>
 
-<span>{oldrs}f</span>
-<span>{oldrs}f</span>
-    </>
+export default function Product({ title="NULL", about="NULL"}) {
+  let styles={
+    textAlign:"center",
+border:"1px solid black",
+margin:"1rem",
+width:"16rem",    
+            };
+  return (
+    <div style={styles}>
+      <h3>{title}</h3>
+      <h4>{about}</h4>
+       <Price/>
+    </div>
   );
 }

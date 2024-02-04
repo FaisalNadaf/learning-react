@@ -1,7 +1,6 @@
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color:#c3f2ff;
-  
+    background-color: rgb(231, 253, 253);
+   
 }
