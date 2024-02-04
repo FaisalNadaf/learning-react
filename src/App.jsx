@@ -1,16 +1,12 @@
 import "./App.css";
-import MyDetails from "./myDetails";
+import ProductTab from "./ProductTab";
 
 function App() {
   return (
-    <MyDetails
-      name={"sam"}
-      college={"uk univercity"}
-      sem={"lastt"}
-      learning={"football"}
-      skill={"fast-running"}
-      focus={"GOALLL"}
-    />
+    <>
+<ProductTab/>
+    </>
   );
 }
+
 export default App;
