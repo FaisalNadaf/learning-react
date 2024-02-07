@@ -1,13 +1,15 @@
 import "./App.css";
 import ProductTab from "./ProductTab";
+import Comment from "./comment";
 import Liked from  "./likeBtn";
 import LudoBoard from "./ludoBoard";
 
 function App() {
   return (
     <>
-{/* <ProductTab/> */}
+<ProductTab/>
 <LudoBoard/>
+<Comment/>
     </>
   );
 }
