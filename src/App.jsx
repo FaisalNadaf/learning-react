@@ -1,15 +1,21 @@
 import "./App.css";
 import ProductTab from "./ProductTab";
+import Cards from "./card/Cards";
 import Comment from "./comment";
-import Liked from  "./likeBtn";
+import Liked from "./likeBtn";
 import LudoBoard from "./ludoBoard";
 
 function App() {
   return (
     <>
-<ProductTab/>
-<LudoBoard/>
-<Comment/>
+      <div className="flex h-full w-full ">
+      
+        <Cards />
+      </div>
+
+      {/* <ProductTab/> */}
+      {/* <LudoBoard/> */}
+      {/* <Comment/> */}
     </>
   );
 }
